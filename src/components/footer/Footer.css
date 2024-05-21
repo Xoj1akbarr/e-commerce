@@ -1,0 +1,48 @@
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 450px;
+    font-family: sans-serif;
+}
+
+.box4 .icon {
+    display: flex;
+    gap: 15px;
+    font-size: 30px;
+}
+
+
+
+.box_2 h3,
+.box_3 h3,
+.box_4 h3,
+.box_1 h3 {
+    margin-top: 10px;
+}
+
+.box_2 p,
+.box_4 p,
+.box_3 p,
+.box_1 p {
+    margin-top: 10px;
+}
+
+.box_4 .btn .btn1 {
+    margin: 10px;
+    border: none;
+    padding: 6px 5px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .Footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 60px;
+        flex-direction: column;
+    }
+    
+}

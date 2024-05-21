@@ -1,0 +1,43 @@
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    gap: 10px;
+}
+
+
+.items {
+    width: 320px;
+    height: 500px;
+    margin: 30px auto;
+    border-radius: 30px;
+}
+
+.items img {
+    width: 85%;
+    height: 60%;
+    margin: 10px 40px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.types {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.prices {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.items h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* .ikon {
+    margin-left: 280px;
+} */

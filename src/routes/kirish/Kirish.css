@@ -1,0 +1,61 @@
+.Kirish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+
+.inner-part {
+    width: 400px;
+    height: 450px;
+    margin: 30px auto;
+    padding: 30px;
+    flex-direction: column;
+    background: rgb(232, 232, 232);
+    border-radius: 10px;
+}
+
+
+
+.inner-part button {
+    padding: 8px 150px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #7000FF;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+
+
+.inner-part button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.inner-part h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: blueviolet;
+    font-family: sans-serif;
+}
+
+.inner-part .Link {
+    text-align: center;
+    margin-left: 100px;
+    font-size: 13px;
+}
+
+.inner-part input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

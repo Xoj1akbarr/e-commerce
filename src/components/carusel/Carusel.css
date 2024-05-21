@@ -1,0 +1,34 @@
+.picture1,
+.picture2,
+.picture3 {
+    width: 90%;
+    height: 500px;
+    margin-left: 60px;
+}
+
+.inner-carusel {
+    margin: 30px;
+}
+
+.inner-carusel button {
+    background-color: black;
+}
+
+.carusel {
+    margin: 30px auto;
+}
+
+@media only screen and (max-width: 500px) {
+.picture1,
+.picture2,
+.picture3 {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    border: none;
+}
+
+.inner-carusel {
+    margin: 10px;
+}
+}
